@@ -140,7 +140,7 @@ df_all = pd.read_csv('cs_general2.csv',sep = ',')
 df_all = df_all.sort_values(by = 'edad')
 
 
-app = dash.Dash()
+app = dash.Dash(__name__,assets_folder='static/css/')
 server = app.server
 
 
