@@ -1,7 +1,6 @@
 # packages in environment at /home/daniel/anaconda3/envs/ds4a_dashboard:
 #
 # Name                    Version                   Build  Channel
-_libgcc_mutex             0.1                        main    conda-forge
 asn1crypto                1.2.0                    py37_0    conda-forge
 attrs                     19.3.0                     py_0    conda-forge
 backcall                  0.1.0                      py_0    conda-forge
