@@ -140,7 +140,7 @@ df_all = pd.read_csv('cs_general2.csv',sep = ',')
 df_all = df_all.sort_values(by = 'edad')
 
 
-app = dash.Dash(__name__)
+app = dash.Dash()
 server = app.server
 
 
@@ -882,4 +882,4 @@ def update_bars_cluster(cluster_dropdown,barras_dropdown_options,age_dropdown_op
         }]
 # Main
 if __name__ == '__main__':
-    app.server.run(debug=True, threaded=False)
+    app.server.run()
